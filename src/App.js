@@ -4,7 +4,7 @@ import axios from 'axios'
 
 const inc = async() =>{
   let result = await axios.post("localhost:8080",{
-  a : +1
+  a : count+1
   })
    console.log(result)
 }
