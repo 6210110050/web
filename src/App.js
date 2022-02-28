@@ -11,7 +11,7 @@ const inc = async() =>{
 
 const ref = async() =>{
   let result = await axios.post("localhost:8080",{
-    a : +1
+    
   })
    console.log(result)
 }
